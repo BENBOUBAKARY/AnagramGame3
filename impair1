@@ -1,0 +1,23 @@
+public class Impaire {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       
+        System.out.println("taper un nombre ");
+     Scanner entier= new Scanner (System.in);
+     int a = entier.nextInt();
+        
+        while (a != 0){
+            int calcul = a % 2;
+            if(calcul == 0){
+                System.out.println("");
+            }else{
+                System.out.println(a+" " + "est impair");
+            }
+            a = a- 1;
+        }
+                   
+      }
+}
